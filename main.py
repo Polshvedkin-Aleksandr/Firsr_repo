@@ -4,8 +4,8 @@ from clean_folder import sort_func
 if __name__ == "__main__":
     road = sys.argv
     try:
-        #path_d = road[1]
-        path_d='E:\Example_Folder'
+        path_d = road[1]
+        #path_d='E:\Example_Folder'
         if not Path(path_d).exists():
             print("[-] Folder does not exist")
         else:
